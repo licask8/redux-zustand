@@ -78,6 +78,8 @@ export const playerSlice = createSlice({
 })
 
 export const player = playerSlice.reducer
+
+// actions
 export const { play, next } = playerSlice.actions
 
 export const useCurrentLesson = () => {
